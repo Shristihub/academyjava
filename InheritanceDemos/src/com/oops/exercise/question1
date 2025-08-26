@@ -1,0 +1,21 @@
+Vehicle
+ brand, model, price
+//parameterised constructor
+void getDetails(){}
+
+Car extends Vehicle{
+ String type; //sedan, SUV,Hatchback,Coupe 
+ int seatingCapacity;
+ //parameterised constructor
+ //own methods
+ String[] showAccessories(){}
+ void showFeatures(){}
+}
+
+Bike extends Vehicle{
+  String transmissionType; //manual, automatic
+  String category; //sports, Cruiser, Luxury
+//parameterised constructor
+   void printInfo(){}
+   void addAccessories(String... acc){}
+}

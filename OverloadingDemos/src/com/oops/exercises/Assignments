@@ -1,0 +1,24 @@
+class Booking{
+ void bookTicket(String passenger, String source, String destination){}
+ void bookTicket(String passenger, String source, String destination, String... extras){}
+ void bookTicket(String passenger, String source, String destination, int noOftickets){}
+}
+
+class ProductDetails{
+
+ void payBill(String customerName, double totalAmount){}
+ void payBill(String customerName, double totalAmount,String... itemNames){}
+ void applyDiscount(String itemName,double basePrice, double... discounts){}
+}
+
+class Notification{
+ void sendNotifications(String message){}
+ void sendNotifications(String message, String... users){}
+
+}
+
+
+
+
+
+
