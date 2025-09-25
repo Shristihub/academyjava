@@ -7,6 +7,6 @@ public class Payment {
 		
 	}
 	void refund(double amount) {
-		System.out.println("Amount refunded "+amount);
+		System.out.println("Amount refunded in Payment "+amount);
 	}
 }

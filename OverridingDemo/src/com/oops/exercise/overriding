@@ -1,0 +1,26 @@
+class Vehicle{
+ brand, model, price
+//parameterised constructor
+void getDetails(){}
+void getMileage(){} // method for overriding
+}
+class Car extends Vehicle{
+ String type; //sedan, SUV,Hatchback,Coupe 
+ int seatingCapacity;
+ //parameterised constructor
+// override getMileage(){}
+ //own methods
+ String[] showAccessories(){}
+ void printFeatures(){}
+}
+class Bike extends Vehicle{
+  String transmissionType; //manual, automatic
+  String category; //sports, Cruiser, Luxury
+//parameterised constructor
+// override getMileage(){}
+//ownmethods
+   void doWheelie(){}
+   void checkCategory(){
+   based on category print details
+ }
+}
