@@ -18,7 +18,7 @@ public class ComparableMain {
 		for (Product product : products) {
 			System.out.println(product);
 		}
-		Collections.sort(products);
+		Collections.sort(products);  
 		System.out.println();
 		System.out.println("Sorted by ProductName");
 		for (Product product : products) {

@@ -1,0 +1,50 @@
+package com.util.userdefined;
+
+public class Employee {
+	private String employeeName;
+	private int employeeId;
+	private double salary;
+	private String city;
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Employee(String employeeName, int employeeId, double salary, String city) {
+		super();
+		this.employeeName = employeeName;
+		this.employeeId = employeeId;
+		this.salary = salary;
+		this.city = city;
+	}
+	public String getEmployeeName() {
+		return employeeName;
+	}
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+	public int getEmployeeId() {
+		return employeeId;
+	}
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	@Override
+	public String toString() {
+		return "Employee [employeeName=" + employeeName + ", employeeId=" + employeeId + ", salary=" + salary
+				+ ", city=" + city + "]";
+	}
+	
+
+}
