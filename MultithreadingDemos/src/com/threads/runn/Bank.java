@@ -2,6 +2,7 @@ package com.threads.runn;
 
 public class Bank {
 
+	//task1
 	synchronized double calcInterest(String name, double amount) {
 		System.out.println("Welcome to ABC Bank "+name);
 		System.out.println("Calculating interest for "+amount);
@@ -16,4 +17,10 @@ public class Bank {
 		
 		return interest;
 	}
+	
+	
 }
+
+
+
+
